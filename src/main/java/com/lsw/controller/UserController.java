@@ -16,7 +16,7 @@ import java.util.List;
 @RestController  //如果本类中全部都是ajax请求,则使用此注解,方法上的@ResponseBody可不写
 @RequestMapping("/user")
 public class UserController {
-    //测试git push
+
     public static final int PAGE_SIZE = 5;
     //切记切记:一定会有业务逻辑层的对象
     @Autowired
